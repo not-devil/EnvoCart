@@ -1,0 +1,12 @@
+<div className="toggle">
+    <div className={`custom-control custom-switch text-${props.screenMode === 'light' ? 'dark' : 'light'}`}>
+        {/*  */}
+        <input type="checkbox" className="custom-control-input" onClick={props.toogleMode} id="customSwitch1" />
+        {/*  */}
+        <label className="custom-control-label" for="customSwitch1">{props.screenMode} Mode</label>
+        {/*  */}
+    </div>
+</div>
+
+import { GoPrimitiveDot } from "react-icons/go";
+<GoPrimitiveDot style={{ color: `#fff` }} size={28} />
